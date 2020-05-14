@@ -6,7 +6,9 @@ in any way!
 
 ## How to start
 Download the chest x-ray dataset and put it in the project folder
+```
 https://www.kaggle.com/paultimothymooney/chest-xray-pneumonia/
+```
 
 ### for 2-label training (normal and pneumonia)
 run train_normal_pneumonia.ipynb
@@ -16,20 +18,20 @@ run train_normal_viral_bacterial.ipynb
 
 ## Requirements
 ### opencv
-,,,
+```
 pip install opencv-python
-,,,
+```
 
 ### tensorflow
-,,,
+```
 pip install --upgrade tensorflow
-'''
+```
 
 ### Misc
-,,,
+```
 pip install pyh5
 pip install matplotlib
 pip install numpy
-,,,
+```
 
 
