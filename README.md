@@ -16,6 +16,10 @@ run train_normal_pneumonia.ipynb
 ### for 3-label training (normal, viral and bacterial)
 run train_normal_viral_bacterial.ipynb
 
+### to test your model
+run test_image.py, then choose your saved model and an image
+
+
 ## Requirements
 ### opencv
 ```
@@ -32,6 +36,7 @@ pip install --upgrade tensorflow
 pip install pyh5
 pip install matplotlib
 pip install numpy
+sudo apt-get install python3-tk
 ```
 
 
